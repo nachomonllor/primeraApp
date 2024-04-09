@@ -1,1 +1,11 @@
-<h1 class="titulo"> Mi primera App 1 </h1>
+<h1 class="titulo"> {{title}} </h1>
+
+<h2>{{suma}}</h2>
+<h1>{{nombre}}</h1>
+
+<input type="text" [(ngModel)]="nombre">
+
+<p>{{nombre}}</p>
+<button (click)="sumar()">Sumar</button>
+<button (click)="restar()">Resta</button>
+
